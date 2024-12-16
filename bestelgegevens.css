@@ -1,0 +1,108 @@
+/* Basis reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #1e1e1e; /* Donkergrijs achtergrond */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    background-color: #2e2e2e;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.form-group.full-width {
+    flex-direction: column;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6e6e6e;
+    color: white;
+}
+
+input[type="text"]::placeholder {
+    color: #d1d1d1;
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.form-check label {
+    margin-left: 10px;
+    font-size: 0.9rem;
+}
+
+.bezorg-opties {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bezorg {
+    background-color: #7a7a7a;
+}
+
+.ophalen {
+    background-color: #4e4e4e;
+}
+
+.verder {
+    background-color: #e800a4;
+    text-align: center;
+}
+
+.btn img {
+    height: 20px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
